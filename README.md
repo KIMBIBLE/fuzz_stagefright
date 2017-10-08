@@ -19,7 +19,26 @@
 > 
 > * cd beagleboard-xm/
 
-## 3. run edited mkmmc shell script !!
+## 3. edit prebuilt android ICS img's library
+> * cd file system
+> 
+> * mkdir rootfs
+> 
+> * tar xvf rootfs.tar.bz2 -C ./rootfs
+> 
+> * wget https://github.com/Oss9935/fuzz_stagefright/blob/master/library_list.txt
+> 
+> * wget https://github.com/Oss9935/fuzz_stagefright/raw/master/nugu_stagefright_liblist.tar.gz
+> 
+> * tar xvfs nugu_stagefright_liblist.tar.gz
+>
+> * wget https://github.com/Oss9935/fuzz_stagefright/blob/master/copylib.sh
+> 
+> * chmod +x copylib.sh
+> 
+> * tar cjvf rootfs.tar.bz2 ./rootfs/*
+
+## 4. run edited mkmmc shell script !!
 \- partisioning sdcard
 
 \- copy compiled android img to sdcard
