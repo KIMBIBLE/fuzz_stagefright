@@ -26,7 +26,7 @@
 > 
 > tar xvf rootfs.tar.bz2 -C ./rootfs
 > 
-> wget https://github.com/Oss9935/fuzz_stagefright/blob/master/library_list.txt
+> wget https://raw.githubusercontent.com/Oss9935/fuzz_stagefright/master/library_list.txt
 > 
 > wget https://github.com/Oss9935/fuzz_stagefright/raw/master/nugu_stagefright_liblist.tar.gz
 > 
