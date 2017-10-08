@@ -32,7 +32,7 @@
 > 
 > tar xvfs nugu_stagefright_liblist.tar.gz
 >
-> wget https://github.com/Oss9935/fuzz_stagefright/blob/master/copylib.sh
+> wget https://raw.githubusercontent.com/Oss9935/fuzz_stagefright/master/copylib.sh
 > 
 > chmod +x copylib.sh
 >
