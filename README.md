@@ -40,7 +40,7 @@
 >
 > tar cjvf rootfs.tar.bz2 ./rootfs/*
 >
-> rm -rf rootfs nugu_stagefright_liblist.tar.gz library_list.txt
+> rm -rf rootfs nugu_stagefright_liblist.tar.gz library_list.txt copylib.sh  nugu_stagefright_liblist 
 >
 > cd ..
 
