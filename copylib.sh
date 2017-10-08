@@ -1,6 +1,6 @@
 #!/bin/bash
 ORIGIN_PATH="./nugu_stagefright_liblist/"
-LIB_PATH="./system/lib/"
+LIB_PATH="./rootfs/system/lib/"
 
 cat library_list.txt | \
 while read line
