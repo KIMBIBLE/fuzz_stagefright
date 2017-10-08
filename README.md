@@ -20,7 +20,7 @@
 > cd beagleboard-xm/
 
 ## 3. edit prebuilt android ICS img's library
-> cd file system
+> cd Filesystem
 > 
 > mkdir rootfs
 > 
