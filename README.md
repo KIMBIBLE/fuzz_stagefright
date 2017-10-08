@@ -37,6 +37,10 @@
 > * chmod +x copylib.sh
 > 
 > * tar cjvf rootfs.tar.bz2 ./rootfs/*
+>
+> * rm -rf rootfs
+>
+> * cd ..
 
 ## 4. run edited mkmmc shell script !!
 \- partisioning sdcard
