@@ -56,5 +56,4 @@
 > chmod +x mkmmc_android_new.sh
 > 
 > sudo ./mkmmc_android_new.sh $DISK    # use your sdcard
->
-> sudo chomd 777 -R /media/rootfs
+
