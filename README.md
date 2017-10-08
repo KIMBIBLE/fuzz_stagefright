@@ -35,10 +35,12 @@
 > wget https://github.com/Oss9935/fuzz_stagefright/blob/master/copylib.sh
 > 
 > chmod +x copylib.sh
-> 
+>
+> ./copylib.sh
+>
 > tar cjvf rootfs.tar.bz2 ./rootfs/*
 >
-> rm -rf rootfs
+> rm -rf rootfs nugu_stagefright_liblist.tar.gz library_list.txt
 >
 > cd ..
 
