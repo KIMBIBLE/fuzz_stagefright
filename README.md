@@ -19,7 +19,7 @@
 > 
 > cd beagleboard-xm/
 
-## 3. edit prebuilt android ICS img's library
+## 3. edit prebuilt android ICS img's library => not complete!!!!
 > cd Filesystem
 > 
 > mkdir rootfs
